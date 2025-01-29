@@ -1,0 +1,67 @@
+.admin-container {
+    padding: 20px;
+  }
+  
+  .works-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .work-item {
+    margin-top: 2%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+  }
+  
+  .work-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .work-item.inactive {
+    opacity: 0.5;
+    filter: grayscale(100%);
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+  }
+  
+  button {
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .edit-modal label{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  
