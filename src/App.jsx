@@ -5,6 +5,7 @@ import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Admin from "./pages/Admin";
+import "../src/App.css"
 
 const App = () => {
   return (
