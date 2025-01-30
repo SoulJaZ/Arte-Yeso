@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./Admin.css";
+import "../Admin.css";
 
 const Admin = () => {
   const [works, setWorks] = useState([]);
